@@ -1,8 +1,8 @@
->>> import streamlit as st
-... import pandas as pd
-... import matplotlib.pyplot as plt
-... import numpy as np
-... from spotify_genre_segmentation import recommend_by_index, df, labels_full, cluster_means
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+from spotify_genre_segmentation import recommend_by_index, df, labels_full, cluster_means
 ... 
 ... # ---------------------------
 ... # Streamlit UI
@@ -60,6 +60,7 @@ if song_name:
         st.error(f"❌ {str(e)}")
 
 st.markdown("---")
+
 
 
 
